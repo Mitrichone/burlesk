@@ -1,8 +1,6 @@
-package RPIS61.Kirzhaev.wdad;
+package RPIS61.Kirzhaev.wdad.learn.xml;
 
-import RPIS61.Kirzhaev.wdad.learn.xml.XmlTask;
-
-public class Main{
+public class TestXmlTask {
     private static String path  = "..\\starting-monkey-to-human-path\\src\\RPIS61\\Kirzhaev\\wdad\\learn\\xml\\example.xml";
     public static void main(String[] args) throws Exception {
         XmlTask xml = new XmlTask(path);

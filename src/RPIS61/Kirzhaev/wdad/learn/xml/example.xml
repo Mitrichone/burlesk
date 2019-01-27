@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE housekeeper SYSTEM "housekeeper.dtd">
+<housekeeper>
+    <tariffs coldwater="99.9" electricity="49.9" gas="24.9" hotwater="149.9"/>
+    <building flatsquantity="2" number="1" street="Московская">
+        <flat area="32" number="2" personsquantity="3">
+            <registration month="1" year="2002">
+                <coldwater>156.0</coldwater>
+                <hotwater>163.0</hotwater>
+                <electricity>156.0</electricity>
+                <gas>163.0</gas>
+            </registration>
+            <registration month="2" year="2002">
+                <coldwater>400.4</coldwater>
+                <hotwater>300.3</hotwater>
+                <electricity>400.2</electricity>
+                <gas>200.1</gas>
+            </registration>
+            <registration month="1" year="2002">
+                <coldwater>10.0</coldwater>
+                <hotwater>10.0</hotwater>
+                <electricity>10.0</electricity>
+                <gas>10.0</gas>
+            </registration>
+        </flat>
+        <flat area="32" number="1" personsquantity="1">
+            <registration month="1" year="2002">
+                <coldwater>100</coldwater>
+                <hotwater>200</hotwater>
+                <electricity>500</electricity>
+                <gas>100</gas>
+            </registration>
+        </flat>
+    </building>
+    <building flatsquantity="1" number="2" street="Владимирская">
+        <flat area="34" number="2" personsquantity="1">
+            <registration month="3" year="2002">
+                <coldwater>500</coldwater>
+                <hotwater>500</hotwater>
+                <electricity>500</electricity>
+                <gas>500</gas>
+            </registration>
+        </flat>
+    </building>
+</housekeeper>

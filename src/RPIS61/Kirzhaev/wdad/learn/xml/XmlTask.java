@@ -153,7 +153,6 @@ public class XmlTask implements XmlTaskInterface{
         element.getElementsByTagName("hotwater").item(0).setTextContent(String.valueOf(hotWater));
         element.getElementsByTagName("electricity").item(0).setTextContent(String.valueOf(electricity));
         element.getElementsByTagName("gas").item(0).setTextContent(String.valueOf(gas));
-
         writeXML();
     }
     //endregion
